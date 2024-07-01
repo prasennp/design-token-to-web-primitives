@@ -1,0 +1,25 @@
+{
+  "name": "design-token-to-css-primitive",
+  "version": "0.0.1",
+  "scripts": {
+    "token-transform": "token-transformer src/pre-transformed/token.json src/transformed/token.json",
+    "style-transform": "style-dictionary build --config=config.js",
+    "build": "rollup -w -c"
+  },
+  "devDependencies": {
+    "@unocss/cli": "^0.61.0",
+    "@unocss/core": "^0.61.0",
+    "rollup-plugin-bundle-scss": "^0.1.3",
+    "rollup-plugin-import-css": "^3.5.0",
+    "rollup-plugin-string": "^3.0.0",
+    "sass": "^1.77.6",
+    "style-dictionary": "^3.9.2",
+    "token-transformer": "^0.0.33"
+  },
+  "exports":{
+    ".": "./dist/vairables.js",
+    "./css": "./dist/css/variables.css",
+    "./scss": "./dist/scss/variables.scss",
+    "./unocss": "./dist/unocss.js"
+  }
+}
