@@ -1,5 +1,5 @@
 # POC - Design tokens to CSS primitives
-    This repository is created as a proof of concept for conversion of design tokens from figma and applying transformations
+This repository is created as a proof of concept for conversion of design tokens from figma and applying transformations
 to them to produce web primitives in various web formats.
 
 ![process showing the design token to various web format transformation](design-token-to-css.png)
