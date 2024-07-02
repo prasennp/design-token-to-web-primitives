@@ -18,3 +18,6 @@ to them to produce web primitives in various web formats.
 2. `npm run token-transform`: Resolves the math operators as well as references in the design token file 
 3. `npm run style-transform`: Use [style-dictionary](https://amzn.github.io/style-dictionary/) to produce the final style artifacts
 4. `npm run build`
+
+
+Note: To use the preset for UnoCSS, import the preset from `@design-token-to-web-primitives/unocss` and use it in your [UnoCSS config](https://unocss.dev/guide/presets).
