@@ -17,4 +17,4 @@ to them to produce web primitives in various web formats.
 1. `npm run install`
 2. `npm run token-transform`: Resolves the math operators as well as references in the design token file 
 3. `npm run style-transform`: Use [style-dictionary](https://amzn.github.io/style-dictionary/) to produce the final style artifacts
-4. `npm run build`:
+4. `npm run build`
