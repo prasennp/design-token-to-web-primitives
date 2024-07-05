@@ -6,6 +6,9 @@
     "style-transform": "style-dictionary build --config=config.js",
     "build": "rollup -w -c"
   },
+  "dependencies": {
+    "style-dictionary": "^3.9.2"
+  },
   "devDependencies": {
     "@unocss/cli": "^0.61.0",
     "@unocss/core": "^0.61.0",
@@ -13,7 +16,6 @@
     "rollup-plugin-import-css": "^3.5.0",
     "rollup-plugin-string": "^3.0.0",
     "sass": "^1.77.6",
-    "style-dictionary": "^3.9.2",
     "token-transformer": "^0.0.33"
   },
   "exports":{
